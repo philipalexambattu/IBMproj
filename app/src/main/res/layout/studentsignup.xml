@@ -32,9 +32,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="134dp"
+        android:layout_marginStart="115dp"
         android:layout_marginTop="-5dp"
-        app:srcCompat="@drawable/thsilh" />
+        app:srcCompat="@drawable/student" />
 
     <TextView
         android:id="@+id/textView2"
@@ -50,18 +50,18 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editTextTextEmailAddress1"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="322dp"
+        android:layout_marginBottom="324dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="Email" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextTextPassword3"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -69,10 +69,10 @@
         android:layout_marginBottom="279dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Password"/>
+        android:text="Password" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editTextTextPassword4"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -83,7 +83,7 @@
         android:text="Password"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextTextPersonName3"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -94,25 +94,25 @@
         android:text="Username" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextTextPersonName4"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="326dp"
+        android:layout_marginTop="321dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Full Name" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="142dp"
-        android:text="Sign Up"
-        android:backgroundTint="@color/Sienna"/>
+        android:backgroundTint="@color/Sienna"
+        android:text="Sign Up" />
 
     <TextView
         android:id="@+id/textView9"

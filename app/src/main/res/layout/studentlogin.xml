@@ -6,7 +6,7 @@
     android:background="@color/MediumSlateBlue">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView16"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -19,18 +19,18 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="302dp"
         android:fontFamily="@font/f4"
-        android:text="Welcome, Tutor!"
+        android:text="Welcome, Student!"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -41,15 +41,15 @@
         android:text="Login" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="273dp"
         android:layout_marginBottom="20dp"
-        android:text="Sign up"
-        android:backgroundTint="@color/Sienna"/>
+        android:backgroundTint="@color/Sienna"
+        android:text="Sign up" />
 
 
 </RelativeLayout>

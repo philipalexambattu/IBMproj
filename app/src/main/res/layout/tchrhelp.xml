@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MediumSlateBlue">
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/back"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:text="HELP"
+        android:textSize="75sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="-1dp"
+        android:text="Contact us : 8606512345\nEmail : creativestudio@gmail.com"
+        android:textSize="25" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="245dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Send Feedback" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="68dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="243dp"
+        android:background="@drawable/sent"
+        android:text=" " />
+
+
+</RelativeLayout>
