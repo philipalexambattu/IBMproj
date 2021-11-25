@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/dropdown.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/homwscreen.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/start.xml" value="0.264" />
+        <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/tchin.xml" value="0.264" />
+        <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/tchome.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/teacherlogin.xml" value="0.264" />
         <entry key="..\:/Users/Hazmil/AndroidStudioProjects/CraftStudio/app/src/main/res/layout/teachersignup.xml" value="0.2" />
       </map>
