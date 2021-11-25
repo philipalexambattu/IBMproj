@@ -91,7 +91,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="273dp"
-        android:text="Logout"
-        android:backgroundTint="@color/Red"/>
+        android:backgroundTint="@color/Red"
+        android:text="Logout" />
 
 </RelativeLayout>
