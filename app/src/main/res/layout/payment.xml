@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-22dp"
+        app:srcCompat="@drawable/blue" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/f3"
+        android:text="Payment"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/back"
+        android:text=" "
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="119dp"
+        android:text="Choose payment method"
+        android:textSize="20sp"
+        android:fontFamily="@font/f3"/>
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="119dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="175dp"
+        android:backgroundTint="@color/LightGrey"
+        android:text="UPI"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="119dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="246dp"
+        android:backgroundTint="@color/LightGrey"
+        android:text="Net Banking"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="119dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="@color/LightGrey"
+        android:text="Debit/Credit"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="300dp"
+        android:text="Card information"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Full Name" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="199dp"
+        android:text="Card Number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="152dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="xxxx-xxxx-xxxx-xxxx" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="104dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Exp Date" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="104dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="CVV"/>
+
+    <Button
+        android:id="@+id/button63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="Continue"
+        android:backgroundTint="@color/Blue"/>
+
+</RelativeLayout>
